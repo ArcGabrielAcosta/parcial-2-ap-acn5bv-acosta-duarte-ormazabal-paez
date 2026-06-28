@@ -1,7 +1,7 @@
 # Parcial 2 — Administración de Proyectos
 
 **Proyecto:** Tradie — Plataforma de Oficios  
-**Versión** v1.1.0
+**Versión** v1.2.0
 **Materia:** Administración de Proyectos — Prof. Sergio Medina  
 **Carrera:** Analista de Sistemas — Escuela Da Vinci  
 **Equipo:** Acosta Gabriel · Duarte Agustina · Ormazábal Marcelo · Páez Melina  
@@ -91,4 +91,29 @@
 | **Historias relacionadas** | HU15–19, HU16–17–18 |
 
 ---
+## 3. Metodología ágil
 
+### Metodología elegida: Scrum + Kanban (híbrido)
+
+El equipo adopta un enfoque **híbrido Scrum/Kanban** adaptado al contexto académico y a la arquitectura de tres capas (Backend, Frontend Web, Mobile).
+
+| Característica | Implementación en Tradie |
+|----------------|--------------------------|
+| **Marco base** | **Scrum** para planificación por iteraciones (sprints de 3–4 semanas) y ceremonias; **Kanban** para visualizar flujo continuo en ClickUp |
+| **Roles** | Product Owner rotativo (Duarte Agustina) · Scrum Master (Acosta Gabriel) · Development Team (los 4 integrantes por capa) |
+| **Artefactos** | Product Backlog (29 HU) · Sprint Backlog · Incremento (código + PR) · Documento de alcance v2.0 |
+| **Ceremonias** | Sprint Planning (inicio de sprint) · Daily async en ClickUp/Discord · Sprint Review · Retrospectiva |
+| **Tablero** | ClickUp con columnas: `planning` → `in progress` → `in review` → `complete` |
+| **Definición de Ready (DoR)** | HU redactada, criterios de aceptación, dependencias identificadas, estimación acordada |
+| **Definición of Done (DoD)** | Criterios cumplidos, PR aprobado, CI verde, tarea en `complete` en ClickUp |
+| **Criterios INVEST** | Historias independientes, negociables, valiosas, estimables, pequeñas y testeables |
+| **Priorización** | Valor de negocio + dependencias técnicas (**Backend primero** cuando hay API) |
+| **WIP limit** | Máximo 2 tareas `in progress` por integrante para evitar bloqueos entre capas |
+
+### Justificación de la combinación
+
+- **Scrum** aporta estructura temporal alineada a las entregas del seminario y al TF.
+- **Kanban** permite visualizar el flujo entre tres espacios (Frontend, Backend, Mobile) sin forzar sincronización rígida cuando una capa depende del contrato API de otra.
+- La regla **“Backend primero”** reduce retrabajo en Frontend y Mobile al tener endpoints definidos antes de integrar.
+
+---
