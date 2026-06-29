@@ -1,7 +1,7 @@
 # Parcial 2 — Administración de Proyectos
 
 **Proyecto:** Tradie — Plataforma de Oficios  
-**Versión** v2.1.0
+**Versión** v2.3.0
 **Materia:** Administración de Proyectos — Prof. Sergio Medina  
 **Carrera:** Analista de Sistemas — Escuela Da Vinci  
 **Equipo:** Acosta Gabriel · Duarte Agustina · Ormazábal Marcelo · Páez Melina  
