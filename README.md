@@ -1,7 +1,7 @@
 # Parcial 2 — Administración de Proyectos
 
 **Proyecto:** Tradie — Plataforma de Oficios  
-**Versión** v1.3.0
+**Versión** v1.4.0
 **Materia:** Administración de Proyectos — Prof. Sergio Medina  
 **Carrera:** Analista de Sistemas — Escuela Da Vinci  
 **Equipo:** Acosta Gabriel · Duarte Agustina · Ormazábal Marcelo · Páez Melina  
@@ -163,5 +163,36 @@ El equipo adopta un enfoque **híbrido Scrum/Kanban** adaptado al contexto acad�
 | Lógica de negocio | 18 | HU01–10, HU19, HU25, HU28–29 |
 | ABM | 7 | HU11–12, HU16–17, HU21, HU24, HU27 |
 | Reporte | 4 | HU13, HU18, HU23, HU26 |
+
+---
+
+---
+
+## 5. Tablero de seguimiento
+
+### Herramienta elegida: ClickUp
+
+| Requisito | Cumplimiento |
+|-----------|--------------|
+| **a. Incluir a cada miembro** | Acosta Gabriel, Duarte Agustina, Ormazábal Marcelo y Páez Melina son miembros del workspace |
+| **b. Invitar al docente** | Invitado `sergiod.medina@davinci.edu.ar` con permisos de visualización |
+| **c. Tablero público** | Workspace configurado con enlace público de lectura |
+
+### Enlaces al tablero
+
+| Space | Descripción | Enlace |
+|-------|-------------|--------|
+| **Frontend** | HU Web (onboarding, admin, landing) | https://app.clickup.com/90171230962/v/s/90175653216 |
+| **Backend** | APIs y lógica de negocio | https://app.clickup.com/90171230962/v/s/90175653229 |
+| **Mobile** | Operación en campo | https://app.clickup.com/90171230962/v/s/90175653223 |
+
+### Flujo de estados
+
+```
+to do → planning → in progress → in review → complete
+                               → at risk → in review → complete
+                               → in review → update required → in review → complete
+                               → on hold → in review → complete
+```
 
 ---
