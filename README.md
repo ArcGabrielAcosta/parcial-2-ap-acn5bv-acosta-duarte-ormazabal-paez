@@ -221,3 +221,12 @@ Estimación en **puntos de historia** (escala Fibonacci: 1, 2, 3, 5, 8). Esfuerz
 | | **Total Sprint 1** | **16** | **10** | **7** | **33** | Capacidad equipo ~30–35 pts/sprint |
 
 **Velocidad estimada del equipo:** 30 puntos por sprint (4 devs × ~8 pts efectivos, descontando documentación y clases).
+---
+### Agregado 3 — Asignación de miembros (Sprint 1 / M1)
+
+| Integrante | Rol principal | Tareas asignadas en ClickUp |
+|------------|---------------|----------------------------|
+| **Acosta Gabriel** | Backend / arquitectura | HU01, HU02, HU03, HU16 (capa Backend) |
+| **Ormazábal Marcelo** | Frontend Web | HU01, HU02, HU03, HU16 (capa Frontend) |
+| **Duarte Agustina** | QA / gestión / documentación | DoR/DoD, pruebas HU01–03, actualización README y ClickUp |
+| **Páez Melina** | UX/UI | Mockups registro/login, validación de flujos mobile HU01–03 |
