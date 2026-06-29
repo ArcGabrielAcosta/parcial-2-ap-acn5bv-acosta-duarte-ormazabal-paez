@@ -196,3 +196,15 @@ to do → planning → in progress → in review → complete
 ```
 
 ---
+
+### Agregado 1 — Milestones (mínimo 3, ≥ 4 HU cada uno)
+
+| Milestone | Objetivo | Fecha objetivo | Historias de usuario |
+|-----------|----------|----------------|----------------------|
+| **M1 — Fundación e identidad** | Usuarios pueden registrarse, iniciar sesión y administrar categorías | Semana 4 | HU01, HU02, HU03, HU16 |
+| **M2 — Perfiles y validación** | Profesionales completan perfil; admin valida credenciales | Semana 8 | HU11, HU12, HU15, HU24 |
+| **M3 — Descubrimiento y geo** | Clientes buscan y visualizan profesionales en mapa | Semana 12 | HU04, HU05, HU06, HU20, HU21 |
+
+Cada milestone está modelado como **carpeta Sprint** en ClickUp (Sprint 1, 2 y 3 en los tres spaces).
+
+---
