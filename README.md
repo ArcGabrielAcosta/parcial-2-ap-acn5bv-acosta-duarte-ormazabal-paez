@@ -1,7 +1,7 @@
 # Parcial 2 — Administración de Proyectos
 
 **Proyecto:** Tradie — Plataforma de Oficios  
-**Versión** v2.3.0
+**Versión** v2.4.0
 **Materia:** Administración de Proyectos — Prof. Sergio Medina  
 **Carrera:** Analista de Sistemas — Escuela Da Vinci  
 **Equipo:** Acosta Gabriel · Duarte Agustina · Ormazábal Marcelo · Páez Melina  
@@ -230,3 +230,26 @@ Estimación en **puntos de historia** (escala Fibonacci: 1, 2, 3, 5, 8). Esfuerz
 | **Ormazábal Marcelo** | Frontend Web | HU01, HU02, HU03, HU16 (capa Frontend) |
 | **Duarte Agustina** | QA / gestión / documentación | DoR/DoD, pruebas HU01–03, actualización README y ClickUp |
 | **Páez Melina** | UX/UI | Mockups registro/login, validación de flujos mobile HU01–03 |
+
+### Agregado 5 — Ajuste metodológico propuesto
+
+#### Situación detectada
+
+Durante el Sprint 1, Frontend y Mobile comenzaron la integración de HU01 en paralelo al Backend. Sin el contrato API cerrado (`POST /auth/register`), aparecieron **bloqueos** y retrabajo en validaciones y códigos de error.
+
+#### Ajuste acordado en retrospectiva
+
+| Antes | Después |
+|-------|---------|
+| Las tres capas avanzan en paralelo desde el día 1 | **Regla “Backend primero”**: la HU de API debe estar en `in review` antes de pasar Frontend/Mobile a `in progress` |
+| WIP ilimitado por persona | **WIP máximo 2** tareas activas por integrante |
+| Daily solo verbal | **Daily con bloqueo explícito** en ClickUp (campo comentario + etiqueta `blocked`) |
+| Sin mock server | **Mock de API** en Frontend/Mobile mientras Backend está en desarrollo |
+
+#### Impacto esperado
+
+- Menos retrabajo en integración.
+- Contrato API documentado en la descripción de la HU Backend antes de consumirlo.
+- Mejor alineación con el enfoque **API-first** del TF.
+
+---
