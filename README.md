@@ -1,7 +1,7 @@
 # Parcial 2 — Administración de Proyectos
 
 **Proyecto:** Tradie — Plataforma de Oficios  
-**Versión** v1.4.0
+**Versión** v2.1.0
 **Materia:** Administración de Proyectos — Prof. Sergio Medina  
 **Carrera:** Analista de Sistemas — Escuela Da Vinci  
 **Equipo:** Acosta Gabriel · Duarte Agustina · Ormazábal Marcelo · Páez Melina  
@@ -208,3 +208,16 @@ to do → planning → in progress → in review → complete
 Cada milestone está modelado como **carpeta Sprint** en ClickUp (Sprint 1, 2 y 3 en los tres spaces).
 
 ---
+### Agregado 2 — Estimaciones
+
+Estimación en **puntos de historia** (escala Fibonacci: 1, 2, 3, 5, 8). Esfuerzo por capa para el **Milestone 1**:
+
+| HU | Título | Backend | Frontend | Mobile | Total | Notas |
+|----|--------|---------|----------|--------|-------|-------|
+| HU01 | Registro de usuario | 5 | 3 | 3 | **11** | Piloto refinado; base del proyecto |
+| HU02 | Inicio de sesión | 3 | 2 | 2 | **7** | Depende de HU01 Backend |
+| HU03 | Recuperación de contraseña | 5 | 2 | 2 | **9** | Email/token; puede usar servicio mock en dev |
+| HU16 | Gestionar categorías de oficios | 3 | 3 | — | **6** | Solo Web + Backend |
+| | **Total Sprint 1** | **16** | **10** | **7** | **33** | Capacidad equipo ~30–35 pts/sprint |
+
+**Velocidad estimada del equipo:** 30 puntos por sprint (4 devs × ~8 pts efectivos, descontando documentación y clases).
